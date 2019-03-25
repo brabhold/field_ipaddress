@@ -7,5 +7,10 @@
             "email": "adrien.belleflamme@transmeat.be"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra": {
+        "installer-paths": {
+            "web/modules/contrib/{$name}": ["type:drupal-module"]
+        }
+    }
 }
